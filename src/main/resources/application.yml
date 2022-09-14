@@ -10,7 +10,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultzone: https://ambika-discovery-server.herokuapp.com/
+      defaultzone: http://localhost:8761/eureka/
 
 spring:
   application:
